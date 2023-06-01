@@ -1,0 +1,225 @@
+.literal {
+	font-family: dejavusansmono, courier, monospace;
+	font-size: 110%;
+}
+
+body {
+	font-family: serif;
+	background-color: #dddddd;
+	margin: 0px;
+	height: 100%;
+}
+
+.body {
+    background-color: #ffffff;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100%;
+}
+
+.navheader {
+    padding: 10px;
+}
+
+.title, .author {
+	color: #990000;
+	font-family: dejavusans, verdana, sans-serif;
+}
+
+.informaltable td, .informaltable th {
+	border-style: none;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.table table td, .table table th {
+	border-style: none;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 145%;
+}
+
+h3 {
+	font-size: 130%;
+}
+
+h4 {
+	font-size: 100%;
+}
+
+a img {
+	border: 0;
+}
+
+.tip, .note {
+	border: thin solid #CCCCCC;
+	padding: 1em;
+	background-color: #FFFFCC;
+}
+
+pre code {
+  font-family: dejavusansmono, courier, monospace;
+  display: block;
+  background: #eeeeee;
+  border: thin solid #cccccc;
+  font-size: 140%;
+  padding: 0.5em;
+}
+
+pre code,
+.ruby .subst,
+.xml .title,
+.lisp .title {
+  color: black;
+}
+
+.string,
+.title,
+.parent,
+.tag .attribute .value,
+.rules .value,
+.rules .value .number,
+.preprocessor,
+.ruby .symbol,
+.instancevar,
+.aggregate,
+.template_tag,
+.django .variable,
+.smalltalk .class,
+.addition,
+.flow,
+.stream,
+.bash .variable,
+.apache .tag,
+.apache .cbracket {
+  color: #800;
+}
+
+.comment,
+.annotation,
+.template_comment,
+.diff .header,
+.chunk {
+  color: #888;
+}
+
+.hl-number,
+.number,
+.date,
+.regexp,
+.literal,
+.smalltalk .symbol,
+.smalltalk .char,
+.change {
+  color: #080;
+}
+
+.label,
+.javadoc,
+.ruby .string,
+.decorator,
+.filter .argument,
+.localvars,
+.array,
+.attr_selector,
+.pi,
+.doctype,
+.deletion,
+.envvar,
+.shebang,
+.apache .sqbracket {
+  color: #88F;
+}
+
+.keyword,
+.id,
+.phpdoc,
+.title,
+.vbscript .built_in,
+.rsl .built_in,
+.cpp .built_in,
+.avrasm .built_in,
+.armasm .built_in,
+.aggregate,
+.smalltalk .class,
+.winutils,
+.bash .variable,
+.apache .tag {
+  font-weight: bold;
+}
+
+.html .css,
+.html .javascript,
+.html .vbscript {
+  opacity: 0.5;
+}
+
+/* Github Banner */
+
+#forkongithub a {
+    background:#000;
+    color:#fff;
+    text-decoration:none;
+    font-family:arial, sans-serif;
+    text-align:center;
+    font-weight:bold;
+    padding:5px 40px;
+    font-size:1rem;
+    line-height:2rem;
+    position:relative;
+    transition:0.5s;
+}
+
+#forkongithub a:hover {
+    background:#060;
+    color:#fff;
+}
+
+#forkongithub a::before,#forkongithub a::after {
+    content:"";
+    width:100%;
+    display:block;
+    position:absolute;
+    top:1px;
+    left:0;
+    height:1px;
+    background:#fff;
+}
+
+#forkongithub a::after {
+    bottom:1px;
+    top:auto;
+}
+
+@media screen and (min-width:1300px) {
+    #forkongithub {
+	position:absolute;
+	display:block;
+	top:0;
+	right:0;
+	width:200px;
+	overflow:hidden;
+	height:200px;
+    }
+
+    #forkongithub a {
+	width:200px;
+	position:absolute;
+	top:60px;
+	right:-60px;
+	transform:rotate(45deg);-webkit-transform:rotate(45deg);
+	box-shadow:4px 4px 10px rgba(0,0,0,0.8);
+    }
+}
